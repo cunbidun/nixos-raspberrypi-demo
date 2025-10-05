@@ -168,10 +168,10 @@
         ];
 
         users.users.nixos.openssh.authorizedKeys.keys = [
-          # YOUR SSH PUB KEY HERE #
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBYi6b9Qaa6hF5PXkaTinS131ESVKDkQTOWCcvD8JmZ3"
         ];
         users.users.root.openssh.authorizedKeys.keys = [
-          # YOUR SSH PUB KEY HERE #
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBYi6b9Qaa6hF5PXkaTinS131ESVKDkQTOWCcvD8JmZ3"
         ];
 
         system.nixos.tags = let
